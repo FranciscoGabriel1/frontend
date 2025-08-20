@@ -32,7 +32,7 @@ function App() {
         </div>
 
         <div>
-          <Form />
+         <Form onRecommendationsChange={setRecommendations} />
         </div>
 
         <div>
